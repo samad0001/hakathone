@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="classDetail.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css
+    ">
+    <script src="class.js"></script>
+</head>
+
+<body class="">
+
+    <div class="row">
+        <div class="col-75" id="container-2">
+            <div class="container FORMSSS">
+
+                <div class="row">
+                    <div class="col-50">
+                        <h1 style="text-align: center;">Class Creation</h1>
+                        <label for="fname"><i class="fa fa-user"></i>
+                            <h3>Class Timming</h3>
+                        </label>
+                        <select id="timming">
+                            <option selected>Class Timming </option>
+                            <option value="9-11 PM">9 To 11 PM</option>
+                            <option value="11-1 PM"> 11 To 1 PM </option>
+                            <option value="3-5 PM">3 To 5 PM</option>
+                            <option value="5-7 PM">5 To 7 PM </option>
+                        </select>
+                        <div>
+                            <label for="fname"><i class="fa fa-user"></i>
+                                <h3>Class Schedule</h3>
+                            </label>
+                            <select id="schedule">
+                                <option selected>Class Schedule </option>
+                                <option value="MWF">Monday - Wednesday - Friday (MWF)</option>
+                                <option value="TTS">Tuesday - Thursday - Saturday (TTS) </option>
+                                <option value="Sunday">Sunday (Weekend)</option>
+                            </select>
+
+
+
+
+                            <label for="fname"><i class="fa fa-user"></i>
+                                <h3>Teachers Name</h3>
+                            </label>
+                            <select id="teacher">
+                                <option selected>Teachers </option>
+                                <option value="Sir Kashif Sulaiman">Sir Kashif Sulaiman</option>
+                                <option value="Sir Haider">Sir Haider </option>
+                                <option value="Sir Ghaus">Sir Ghaus </option>
+                                <option value="Ishaq Bujhani">Ishaq Bujhani</option>
+                            </select>
+
+
+
+                            <label><i class="fa fa-user"></i>
+                                <h3>Section Name</h3>
+                            </label>
+                            <select id="section">
+                                <option value="A" selected>A </option>
+                                <option value="B">B</option>
+                                <option value="C">C </option>
+                                <option value="D">D </option>
+                                <option value="E">E</option>
+                            </select>
+
+
+                            <label for="fname"><i class="fa fa-user"></i>
+                                <h3>Course Name</h3>
+                            </label>
+                            <select id="course">
+                                <option value="Web Development And IT" selected>Web Development And IT </option>
+                                <option value="Basic Programing">Basic Programing</option>
+                                <option value="Graphic Designing">Graphic Designing</option>
+                                <option value="Textile Designing">Textile Designing</option>
+                            </select>
+                            <br>
+
+                            <label for="fname"><i class="fa fa-user"></i>
+                                <h3> Batch</h3>
+                            </label>
+                            <input id="batch" style="width:100px ;" value="08" disabled>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="Student-Detail">
+                    <label>Name<input id="input" type="text"></label>
+                    <label>Father Name<input id="input" type="text"></label>
+                    <label>Roll Number<input id="input" type="text"></label>
+                    <label>Contact Number<input id="input" type="text"></label>
+                    <label>CNIC<input id="input" type="text"></label> <br>
+                    <label>Picture<input id="input" type="file"></label> <br>
+                    <label>Course Name<input id="input" type="text"></label>
+                </div>
+
+                <button style="display: inline-block; margin-left: 50%;" onclick="kk()">Submit</button>
+
+</body>
+
+</html>
